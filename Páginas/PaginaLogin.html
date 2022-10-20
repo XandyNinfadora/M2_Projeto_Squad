@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,28 +20,33 @@
                 <div class="loginTitle">
                     <h1>Login</h1>
                 </div>
-                <div class="formLogin">
-                    <form>
+                <form id="loginFormulario">
+                    <div class="formLogin">
+
                         <div class="caixaEmail">
                             <label for="email">E-mail</label>
                             <br>
                             <input type="email" name="e-mail" id="loginEmail" placeholder="email">
+                            <small id="textEmail"></small>
                         </div>
                         <div class="caixaSenha">
                             <label for="password">Senha</label>
                             <br>
                             <input type="password" name="senha" id="loginSenha" placeholder="password">
+                            <small id="textPassword"></small>
                         </div>
-                    </form>
-                </div>
-                <div class="esqueciSenha">
-                    <a href="PaginaRecuperaSenha.html">Esqueci minha senha</a>
-                </div>
-                <div class="loginButton">
-                    <button type="submit" class="loginBotao">
-                        Entrar
-                    </button>
-                </div>
+
+                    </div>
+                    <div class="esqueciSenha">
+                        <a href="PaginaRecuperaSenha.html">Esqueci minha senha</a>
+                    </div>
+                    <div class="loginButton">
+                        <button type="submit" class="loginBotao">
+                            Entrar
+                        </button>
+                        <small id="textForm"></small>
+                    </div>
+                </form>
             </div>
         </center>
     </main>
