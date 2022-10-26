@@ -12,12 +12,20 @@
 </head>
 
 <body>
+  <!--Barra de navegação-->
   <div class="container">
     <header>
       <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
         <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
 
-          <span class="fs-4">RecBook</span>
+          <div class="logo"><span class="fs-4" >RecBook</span>
+            <img src="Imagens/Logo.png" alt="LogoRecbook" width="30" height="24" class="d-inline-block align-text-top">
+          
+          
+          
+          </div>
+          
+
         </a>
 
         <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
@@ -27,44 +35,88 @@
 
         </nav>
       </div>
+      <!--divs com os textos-->
+      <div id="about-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-1 fw-normal">Tenha diversas opções diárias de livros com o Recomendador!</h1>
 
-      <div class="header p-3 pb-md-4 mx-auto text-center">
-        <h1 class="display-4 fw-normal">Tenha diversas opções diárias de livros com o Recomendador!</h1>
         <p class="fs-5 text-muted">O nosso serviço proporciona a você diversas perguntas para traçar o seu perfil de
           leitor. Através da nossa ferramenta, o Recomendador, fornecerá a você, nosso caro leitor ávido, opções de
           livros de acordo com seus gostos!</p>
-        <p> Temos dois planos de assinatura, e um deles é GRATUITO! Leia mais com o Recomendador e explore um universo
+          <div class="col-md-6">
+            <img class="img-fluid" src="Imagens/celularHome.png" alt="ImagemAPPCel">
+          </div>
+
+          <p></p>
+          <p class="display-5 fw-normal"> Temos dois planos de assinatura, e um deles é GRATUITO! Leia mais com o Recomendador e explore um universo
           dentro dos livros. Clique no botão para entrar na lista de espera ou no card para conhecer mais o serviço e os
           planos
         </p>
-        <h5>A nossa missão é sua estante cheia de livros que você ama!</h5>
+        
+        <h5 class="display-3 fw-normal">A nossa missão é sua estante cheia de livros que você ama!</h5>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+      
+      
+        
+        
 
       </div>
     </header>
 
-    <main>
-      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-        <div class="col"></div>
-        <div class="col">
-          <div class="card mb-4 rounded-3 shadow-sm">
-            <div class="card-header py-3">
-              <h4 class="my-0 fw-normal">Plano semestral</h4>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">A partir de:<small class="text-muted fw-light">$$,$$ R$</small>
-              </h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li></li>
-                <li></li>
-                <li></li>
-
-              </ul>
-              <button type="button" class="w-100 btn btn-lg btn-outline-primary">Começar agora</button>
+    
+              <!--botão para acessar o recomendador-->
+              <button type="button" class="w-100 btn btn-lg btn-outline-danger">Começar agora</button>
             </div>
           </div>
         </div>
+        
+        <!--Rodapé-->
 
-
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+          <div class="row">
+            <div class="col-12 col-md">
+              <small class="d-block mb-3 text-muted">© 2017-2018</small>
+            </div>
+            <div class="col-6 col-md">
+              <h5>Features</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Algo legal</a></li>
+                <li><a class="text-muted" href="#">Feature aleatória</a></li>
+                <li><a class="text-muted" href="#">Recursos para times</a></li>
+                <li><a class="text-muted" href="#">Coisas para desenvolvedores</a></li>
+                <li><a class="text-muted" href="#">Outra coisa legal</a></li>
+                <li><a class="text-muted" href="#">Último item</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h5>Fontes</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Fonte</a></li>
+                <li><a class="text-muted" href="#">Nome da fonte</a></li>
+                <li><a class="text-muted" href="#">Outra fonte</a></li>
+                <li><a class="text-muted" href="#">Fonte final</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h5>Sobre</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Equipe</a></li>
+                <li><a class="text-muted" href="#">Locais</a></li>
+                <li><a class="text-muted" href="#">Privacidade</a></li>
+                <li><a class="text-muted" href="#">Termos</a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
