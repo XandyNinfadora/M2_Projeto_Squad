@@ -1,7 +1,11 @@
+body {
+    background-color: #fffafa ;
+}
 .title {
     text-align: center;
     padding-top: 5%;
     font-family: 'Libre Baskerville', serif;
+    color: #5b4b41 ;
 }
 
 .imagensIndex {
@@ -24,9 +28,10 @@
     height: 500px;
     align-items: center;
     text-align: center;
-    color: #fffafa;
+    color: #ffede6;
     margin-bottom: 8%;
-    margin-top: 8%;
+    margin-top: 4%;
+    border-radius: 10px;
 }
 
 
@@ -40,4 +45,10 @@
     flex-direction: row;
     justify-content: space-evenly;
 
+}
+#pe {
+    font-size: 14px;
+    align-items: justify;
+    line-height: 1.5s;
+    text-indent: 2em;
 }
