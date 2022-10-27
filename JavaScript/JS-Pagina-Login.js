@@ -1,11 +1,7 @@
 let email = document.getElementById('loginEmail');
 let password = document.getElementById('loginSenha');
 let formulario = document.getElementById('loginFormulario');
-/*
-let textEmail = document.getElementById('textEmail');
-let textPassword = document.getElementById('textPassword');
-let textForm = document.getElementById("textForm");
-*/
+
 formulario.addEventListener("submit", (e) => {
     if (email.value == "" && password.value == "") {
         alert("Você precisa preencher todos os campos!")
@@ -13,11 +9,7 @@ formulario.addEventListener("submit", (e) => {
         validaSenha(password.value) === true) {
         console.log(email.value);
         console.log(password.value);
-        /*
-        textForm.textContent = "";
-        textEmail.textContent = "";
-        textPassword.textContent = "";
-        */
+       
     }
     else {
         alert("E-mail e/ou senha inválidos. Verifique se há uma conta ao tentar cadastrar o e-mail. Caso esqueceu a senha, clique no botão abaixo.");
@@ -25,15 +17,15 @@ formulario.addEventListener("submit", (e) => {
     }
     e.preventDefault();
 });
-/*
+
 //Variavél para a manipulação do campo em vermelho e texto de alerta
 // Será utilizado essa parte para fazer o campo ficar vermelho até que seja colocado um valor compatível.
 email.addEventListener("keyup", () => {
     if (validaEmail(email.value) !== true) {
-        textEmail.textContent = "O formato do email deve ser Ex: abc@com"
+        email.style.cssText = 'border-bottom-color: #f44040';
     }
     else {
-        textEmail.textContent = "";
+        email.style.cssText = 'border-bottom-color: #4070f4';
     }
 })
 
@@ -42,14 +34,14 @@ email.addEventListener("keyup", () => {
 
 password.addEventListener("keyup", () => {
     if (validaSenha(password.value) !== true) {
-        textPassword.textContent = "formato da senha deve ser X Y"
+        password.style.cssText = 'border-bottom-color:#f44040';
     }
     else {
-        textPassword.textContent = "";
+        password.style.cssText = 'border-bottom-color:#4070f4';
     }
 })
 
-*/
+
 
 
 //Validando email

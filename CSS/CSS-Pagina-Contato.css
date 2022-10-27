@@ -1,0 +1,43 @@
+.title {
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.imagensIndex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.img {
+    padding: 5%;
+
+}
+
+.imagensIndex2 {
+    background-color: #bf795b;
+    width: 250px;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    color: #fffafa;
+    margin-bottom: 8%;
+    margin-top: 8%;
+}
+
+
+.imgGit {
+    margin-bottom: 5%;
+
+}
+
+.imgIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
