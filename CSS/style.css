@@ -1,5 +1,11 @@
-h1, main {
+h1, p , h5 {
   font-family: serif
+
+}
+  span {
+    font-family: "minhafont";
+    src: url("Mermaid\ Swash\ Caps.ttf");
+    color: #b7410e;
 
 }
 
