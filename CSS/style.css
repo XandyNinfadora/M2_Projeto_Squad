@@ -64,20 +64,36 @@ align-items: center;
 
 }
 
+@media (max-width: 400px) {
 
-  @media (max-width: 1200px) {
-
-  a {
-     display: block ;
+  .nav {
+    display: 100% ;
     align-items: center;
     justify-content:space-evenly;
     justify-content: center;
-    height: 150px;
-    font-size: 35px;
+    height: 100px;
+    font-size: 30px;
     flex-wrap:wrap ;  }
 
     .logo {
       
+      font-size:35px;
+    }
+  } 
+
+  @media (max-width: 1200px) {
+
+  .nav {
+    
+    align-items: center;
+    justify-content:space-evenly;
+    justify-content: center;
+    height: 150px;
+    font-size: 55px;
+    flex-wrap:wrap ;  }
+
+    .logo {
+
       font-size:35px;
     }
   }
