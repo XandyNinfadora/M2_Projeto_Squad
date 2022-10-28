@@ -23,3 +23,60 @@ color: #ccd4fe;
 #rodape {
   margin-bottom: 0%;
 }
+
+.fotoEstanteIndex{
+
+    float: left;
+    display: inline-block;
+   
+}
+.img-fluid {
+
+  float: right ;
+  display: inline-block
+
+}
+
+.textehome {
+
+  padding-top: 200px;
+  margin-bottom: 150px;
+
+
+}
+.textohome2{
+
+  padding-top: 200px;
+  margin-bottom: 150px;
+
+}
+
+
+.textohome3 {
+
+padding-top: 250px;
+align-items: center;
+
+}
+.alinhador {
+
+  text-align: left;
+  
+}
+
+
+  @media (max-width: 1200px) {
+
+  a {
+     display: block ;
+    align-items: center;
+    justify-content:space-evenly;
+    justify-content: center;
+    height: 150px;
+    font-size: 35px;
+    flex-wrap:wrap ;  }
+
+    .logo {
+      font-size:35px;
+    }
+  }
