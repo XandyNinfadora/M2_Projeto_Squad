@@ -1,1 +1,3 @@
-# ProjetoSquadM2
+# Projeto em Squad Módulo 2
+Nosso grupo formado por 5 pessoas diferentes e com pensamentos e ideias tão distintas quanto, planejamos e executamos essa página e produto para nossa empresa FrontEnders. Seu objetivo é recomendar livros para leitores que querem explorar seus gêneros literários favorito. Executamos um site responsivo, minimalista e prático no qual consegue agradar todos os públicos. Sua execução pode ser feita pelo mobile ou desktop. O projeto pode ser inicializado através do seu navegador e arquivo principal está denominado como index.html, o restante dos itens da sua composição se encontram nas respectivas pastas com seus nomes. O link da página é esse e agradeço pela atenção. Tenha um ótimo dia!
+Link para acessar o projeto: https://xandyninfadora.github.io/ProjetoSquadM2/

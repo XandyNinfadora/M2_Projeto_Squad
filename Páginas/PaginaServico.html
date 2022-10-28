@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +14,9 @@
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="../CSS/style.css">
+  </head>
+
 <body>
   <article>
     <!-- Texto e posicionamento das fotos -->
@@ -31,68 +34,89 @@
         <p>Temos mais de 5 mil livros em nossa biblioteca e de diversos gostos! Mensalmente nosso sistema é atualizado e
           esse número será cada vez maior! E não acabou por aqui! Ainda tem mais! Utilizamos seu endereço para dizer a
           biblioteca ou loja mais perto em que há o livro.
+          Gostou do nosso RecBook e quer ter um gostinho a mais? Clique no botão abaixo para interagir com uma simulação!
         </p>
         <h3 id="slogan">A nossa missão é sua estante cheia de livros que você ama!</h3>
       </div>
     </div>
   </article>
   </main>
+</div>
+</div>
+</div>
+<a id="lista" class="w-100 btn btn-lg btn-outline-danger" href="PaginaSimulacao.html" role="button">Ir para simulação</a>
+<br>
+<br>
+<br>
 
-  <div class="caixas"> 
-  <main>
-    <div class="caixa1">
+  <div class="caixas">
+    <main>
+      <div class="caixa1">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col"></div>
+          <div class="col" id="caixinhah">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h2 id="Ass" class="my-0 fw-normal">Assinatura Adicional</h2>
+              </div>
+              <br>
+              <div class="card-body">
+                <h4 id="Ass" class="card-title pricing-card-title">Custando apenas: R$ 9,99
+                  <br>
+                  <br>
+                  <small class="text-muted fw-light" id="carah"> Sem limites de recomendação por dia.</small>
+                  <small class="text-muted fw-light" id="carah"> Encontra o livro nas lojas mais próximas.</small>
+                </h4>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+
+                </ul>
+                <button id="butao" type="button" class="w-100 btn btn-lg btn-outline-primary"
+                  onclick="alert('Bem-vinde ao nosso time do RecBook!') ">Começar agora</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="caixa2">
       <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
         <div class="col"></div>
-        <div class="col" id="caixinhah">
+        <div class="col" id="caixinhah2">
           <div class="card mb-4 rounded-3 shadow-sm">
             <div class="card-header py-3">
-              <h2 id="Ass" class="my-0 fw-normal">Assinatura Adicional</h2>
+              <h2 id="Ass2" class="my-0 fw-normal">Assinatura Base</h2>
             </div>
+            <br>
             <div class="card-body">
-              <h4 id="Ass" class="card-title pricing-card-title">Custando apenas: <small class="text-muted fw-light"
-                  id="carah"> R$ 9,99 </small></h4>
+              <h4 id="Ass2" class="card-title pricing-card-title">Custando apenas:<small> R$ 0,00 </small>
+                <br>
+                <br>
+                <small class="text-muted fw-light" id="carah"> Limite de encontrar o livro por cidade.
+                </small>
+                <br>
+                <small class="text-muted fw-light" id="carah"> Somente 2 recomendações por dia.
+                </small>
+              </h4>
               <ul class="list-unstyled mt-3 mb-4">
                 <li></li>
                 <li></li>
                 <li></li>
 
               </ul>
-              <button id="butao" type="button" class="w-100 btn btn-lg btn-outline-primary"
-                onclick="alert('Bem-Vinde ao nosso time do RecBook!') ">Começar agora</button>
+              <button id="butao2" type="button" class="w-100 btn btn-lg btn-outline-primary"
+                onclick="alert('Bem-vinde ao nosso time do RecBook!') ">Começar agora</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </main>
-  <div class="caixa2">
-    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-      <div class="col"></div>
-      <div class="col" id="caixinhah2">
-        <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3">
-            <h2 id="Ass2" class="my-0 fw-normal">Assinatura GRATUITA!</h2>
-          </div>
-          <div class="card-body">
-            <h4 id="Ass2" class="card-title pricing-card-title">Custando apenas: <small class="text-muted fw-light"
-                id="carah"> R$ 0,00 </small></h4>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li></li>
-              <li></li>
-              <li></li>
-
-            </ul>
-            <button id="butao2" type="button" class="w-100 btn btn-lg btn-outline-primary"
-              onclick="alert('Bem-Vinde ao nosso time do RecBook!') ">Começar agora</button>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
-</div>
-    <footer>
-      <!-- Linha e os créditos abaixo-->
-    </footer>
+  <footer>
+    <!-- Linha e os créditos abaixo-->
+  </footer>
 
 </body>
 
