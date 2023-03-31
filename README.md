@@ -12,7 +12,7 @@ A webpage pode ser acessada por esse link: https://xandyninfadora.github.io/M2_P
 <ol>
 <li> Comece com o git clone no link https://github.com/XandyNinfadora/ProjetoSquadM2/ para a clonagem do mesmo </li>
 <li> Escolha o navegador de sua preferência </li>
-<li> Abra o arquivo indes.html no seu navegador </li>
+<li> Abra o arquivo index.html no seu navegador </li>
 </ol>
 
 <hr>
